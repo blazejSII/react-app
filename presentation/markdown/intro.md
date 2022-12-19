@@ -1,20 +1,38 @@
-# intro to React.js
+# Build app <!-- .element: class="r-fit-text" class="ant" -->
 
-by Błażej Balcar and Marek Cieślar
+# with React.js <!-- .element: class="r-fit-text" -->
 
 
-## repository
+## Table of Contents
+
+
+### Presentation
+
+- what is React
+- super fast development environment - vite
+- how to mock the data with json-server
+- make products more beautiful and flexible with Ant Design
+- encapsulated styles with .module.scss and clsx
+- responsive tables with react-data-table-component
+
+
+### Live coding
+
+- what we are going to do - example of Bank application
+- setup json-server
+- prepare React component
+
+
+## Repositories
 
 ```bash
 https://github.com/blazejSII/react-app
+https://github.com/sii-pro-react/react-app-exercise
 ```
 
 
-## libraries
+## Presentation
 
-```bash[1|2|3|4]
-vite
-json-server
-react-table-component
-.module.scss and clsx
+```bash
+https://sii-bank-application.netlify.app/
 ```

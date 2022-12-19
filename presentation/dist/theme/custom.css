@@ -1,7 +1,23 @@
-.container{
+.container {
   display: flex;
 }
 
-.col{
+.col {
   flex: 1;
+}
+
+.halfHeight {
+  max-height: 40vh;
+}
+
+.fitSection {
+  top: 0 !important;
+}
+
+.ant {
+  margin-top: -30px !important;
+}
+
+.react-color {
+  color: #61dafb !important;
 }

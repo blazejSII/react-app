@@ -8,6 +8,10 @@
 This is an backend api library to work with, when we need some mocked data, and there is no possibility for backend or not everything is easy to test when backend is working (for example database issues)
 
 
+<!-- .slide: data-background="#330033" data-transition="fade-in fade-out" -->
+![style](./assets/json-server-fe.webp)
+
+
 <!-- .slide: data-background="#330000" -->
 ## installation
 
