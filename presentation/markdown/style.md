@@ -9,7 +9,7 @@
 <!-- .slide: data-background="#330033" -->
 ## react .module.scss
 
-Embeded in `cra` and `Vite` out of the box for react apps. The only think You need to do is to name your style file with _.module_ like _button.module.scss_.
+Embeded in `CRA` and `Vite` out of the box for React apps. The only thing you need to do is to name your style file with _.module_ like _button.module.scss_.
 and use it in component
 
 
@@ -17,7 +17,7 @@ and use it in component
 ## advantages
 
 - classes are scoped to component <!--  .element: class="fragment" data-fragment-index="1" -->
-- better maintain (discussion topic) <!--  .element: class="fragment" data-fragment-index="2" -->
+- easier maintenance (topic for discussion) <!--  .element: class="fragment" data-fragment-index="2" -->
 - possibility to send classes to multiple components <!--  .element: class="fragment" data-fragment-index="3" -->
 - better to create <!--  .element: class="fragment" data-fragment-index="4" -->
 
@@ -80,7 +80,7 @@ const Button = () => (
 <!-- .slide: data-background="#330033" -->
 ## more and more classes with some conditions
 
-it starts to be messy - with help comes _clsx_ library where every prop in method if it is string it will show, also we can use object to make it even more clear
+it starts to be messy - with help comes _clsx_ library. Every argument in a method if it is string it will be shown. We can also use an object to make it even more clearer.
 
 
 <!-- .slide: data-background="#330033" data-transition="fade-in fade-out" -->

@@ -3,18 +3,18 @@
 
 
 <!-- .slide: data-background="#333300" -->
-## what is vite
+## What is vite
 
-Vite is a build tool to make our world faster. <!--  .element: class="fragment" data-fragment-index="1" -->
+Vite is a build tool to make world faster. <!--  .element: class="fragment" data-fragment-index="1" -->
 
 Vite was created by Evan You, the creator of Vue.js. 
-It can be used for develop with any JS libraries like Vue.js, React, VanillaJS or any other. <!--  .element: class="fragment" data-fragment-index="2" -->
+It can be used for development with any of JS libraries like Vue.js, React, VanillaJS or any other. <!--  .element: class="fragment" data-fragment-index="2" -->
 
 [https://vitejs.dev/](https://vitejs.dev/) <!--  .element: class="fragment" data-fragment-index="3" -->
 
 
 <!-- .slide: data-background="#333300" data-transition="slide-in fade-out" -->
-## why Vite
+## Why Vite
 
 ![tell me why](/assets/vite-why.gif) <!--  .element: class="fragment" data-fragment-index="1" -->
 
@@ -34,14 +34,14 @@ than JavaScript-based bundlers. <!--  .element: class="fragment" data-fragment-i
 
 
 <!-- .slide: data-background="#333300" -->
-## how it works
+## How it works
 
 Vite creates readable for web browsers code from ES Modules then it serves it with some lightweight Node.js server as Koa.
 And it is super fast and 
 
 
 <!-- .slide: data-background="#333300" -->
-## vite vs create-react-app
+## Vite vs create-react-app
 
 ![vite vs react](/assets/vite-vs-cra.png)
 
