@@ -26,7 +26,7 @@
 ## Repositories
 
 ```bash
-https://github.com/blazejSII/react-app
+https://github.com/react-presentation/react-app
 https://github.com/sii-pro-react/react-app-exercise
 ```
 
