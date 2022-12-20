@@ -8,19 +8,19 @@
 
 ### Presentation
 
-- what is React
-- super fast development environment - vite
-- how to mock the data with json-server
-- make products more beautiful and flexible with Ant Design
-- encapsulated styles with .module.scss and clsx
-- responsive tables with react-data-table-component
+- what is React <!--  .element: class="fragment" data-fragment-index="1" -->
+- super fast development environment - vite <!--  .element: class="fragment" data-fragment-index="2" -->
+- how to mock the data with json-server <!--  .element: class="fragment" data-fragment-index="3" -->
+- make products more beautiful and flexible with Ant Design <!--  .element: class="fragment" data-fragment-index="4" -->
+- encapsulated styles with .module.scss and clsx <!--  .element: class="fragment" data-fragment-index="5" -->
+- responsive tables with react-data-table-component <!--  .element: class="fragment" data-fragment-index="6" -->
 
 
 ### Live coding
 
-- what we are going to do - example of Bank application
-- setup json-server
-- prepare React component
+- what we are going to do - example of Bank application <!--  .element: class="fragment" data-fragment-index="1" -->
+- setup json-server <!--  .element: class="fragment" data-fragment-index="2" -->
+- prepare React component <!--  .element: class="fragment" data-fragment-index="3" -->
 
 
 ## Repositories

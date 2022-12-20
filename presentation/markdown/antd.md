@@ -1,111 +1,46 @@
-<!-- .slide: data-background="#000000" class="fitSection" -->
+<!-- .slide: data-background="./assets/antd-bg.jpeg" class="fitSection" -->
 ## Ant <!-- .element: class="r-fit-text halfHeight ant" -->
-## Design <!-- .element: class="r-fit-text halfHeight" -->
+## Design <!-- .element: class="r-fit-text halfHeight ant" -->
 
 
-<!-- .slide: data-background="#330033" data-transition="fade-in fade-out" -->
-![style](./assets/style-style.gif)
+<!-- .slide: data-background="./assets/antd-bg.jpeg" data-transition="fade-in fade-out" -->
+![style](./assets/antd-logo.png) <!-- .element: class="r-fit-text halfHeight ant" -->
 
-<!-- .slide: data-background="#330033" -->
 
-## react .module.scss
+<!-- .slide: data-background="./assets/antd-bg.jpeg" -->
+## What is this?
 
-Embeded in `cra` and `Vite` out of the box for react apps. The only think You need to do is to name your style file with _.module_ like _button.module.scss_.
-and use it in component
+Ant Design is a React UI library that contains easy-to-use components that are useful for building interactive user interfaces.
 
-<!-- .slide: data-background="#330033" -->
 
-## advantages
+<!-- .slide: data-background="./assets/antd-bg.jpeg" -->
+## Features
 
-- classes are scoped to component <!--  .element: class="fragment" data-fragment-index="1" -->
-- better maintain (discussion topic) <!--  .element: class="fragment" data-fragment-index="2" -->
-- possibility to send classes to multiple components <!--  .element: class="fragment" data-fragment-index="3" -->
-- better to create <!--  .element: class="fragment" data-fragment-index="4" -->
+- set of high-quality React components <!--  .element: class="fragment" data-fragment-index="1" -->
+- written in TypeScript <!--  .element: class="fragment" data-fragment-index="2" -->
+- easy to use <!--  .element: class="fragment" data-fragment-index="3" -->
+- theme customization <!--  .element: class="fragment" data-fragment-index="4" -->
+- internationalization package <!--  .element: class="fragment" data-fragment-index="5" -->
 
-<!-- .slide: data-background="#330033" -->
 
-## disadvantages
+<!-- .slide: data-background="./assets/antd-bg.jpeg" -->
+## Browser support
 
-- modules do not accept props <!--  .element: class="fragment" data-fragment-index="5" -->
-- using as objects - not so clear for first time <!--  .element: class="fragment" data-fragment-index="6" -->
+![style](./assets/antd-can-i-use.png)
+<div style="font-size: .7rem">* Polyfills are needed for IE browsers</div>
 
-<!-- .slide: data-background="#330033" -->
 
-## button.module.scss
+<!-- .slide: data-background="./assets/antd-bg.jpeg" -->
+## Installation and usage
 
-```css[1,2,7|4-6]
-.theClass {
-  background-color: blue;
+<pre><code>npm install antd</code></pre>
 
-  &:hover {
-    background-color: red;
-  }
-}
-```
+<pre>
+<code>import { DatePicker } from 'antd';
 
-<!-- .slide: data-background="#330033" -->
+const App = () => {
+  return <DatePicker />;
+};
 
-## Button.ts
-
-```js[1|4]
-import btn from './button.module.scss';
-
-const Button = () => (
-  <button className={btn.theClass}>button</button>
-)
-```
-
-<!-- .slide: data-background="#330033" -->
-
-## output
-
-```html
-<button class="theClass__1a2b3">button</button>
-```
-
-<!-- .slide: data-background="#330033" -->
-
-## more classes in one component
-
-```js[4-6]
-import btn from './button.module.scss';
-
-const Button = () => (
-  <button className={`${btn.theClass} ${btn.primary}`}>
-    button
-  </button>
-)
-```
-
-<!-- .slide: data-background="#330033" -->
-
-## more and more classes with some conditions
-
-it starts to be messy - with help comes _clsx_ library where every prop in method if it is string it will show, also we can use object to make it even more clear
-
-<!-- .slide: data-background="#330033" data-transition="fade-in fade-out" -->
-
-![style](./assets/style-messy.gif)
-
-<!-- .slide: data-background="#330033" -->
-
-```js[5-7|8|9|10|11]
-import btn from './button.module.scss';
-import clsx from 'clsx';
-
-const Button = () => (
-  <button className={`${btn.theClass} ${btn.primary}`}>
-    button
-  </button>
-  // simplified for easier reading
-  {clsx(btn.theClass, btn.primary, "big")}
-  {clsx(true && btn.theClass, false && btn.primary)}
-  {clsx({[btn.theClass]: true, [btn.primary]: false}, "big")}
-)
-```
-
-<!-- .slide: data-background="#330033" -->
-
-## questions
-
-?
+export default App;
+</code></pre>

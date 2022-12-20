@@ -5,7 +5,7 @@
 <!-- .slide: data-background="#330000" -->
 ## what is json-server
 
-This is an backend api library to work with, when we need some mocked data, and there is no possibility for backend or not everything is easy to test when backend is working (for example database issues)
+This is an backend API library which is really handy when we need some mocked data (like when db is not ready yet)
 
 
 <!-- .slide: data-background="#330033" data-transition="fade-in fade-out" -->
@@ -15,7 +15,7 @@ This is an backend api library to work with, when we need some mocked data, and 
 <!-- .slide: data-background="#330000" -->
 ## installation
 
-json-server can be installed in frontend project itself or standalone. We decided to install it as separate 'application' in different folder
+It can be installed in frontend project itself or standalone. For a presentation purposes we decided to install it as separate 'application' in a different folder
 
 ```bash
 npm i json-server
@@ -25,7 +25,7 @@ npm i json-server
 <!-- .slide: data-background="#330000" -->
 ## start
 
-To start json-server it is enough to create database file like _db.json_ with data as array in specific key. Here database has only one key wherefrom we will get data
+To start json-server it is enough to create database file like _db.json_ with data as array with specific key. Here database has only one key from where we will get data
 
 ```json[1,10|2,9|3-8]
 {
@@ -42,7 +42,7 @@ To start json-server it is enough to create database file like _db.json_ with da
 
 
 <!-- .slide: data-background="#330000" -->
-and start server
+Start server
 
 ```bash
 $ json-server db.json
@@ -58,14 +58,14 @@ localhost:3000/
 <!-- .slide: data-background="#330000" -->
 ## get data from api
 
-getting data from api is as easy as:
+Getting data from api is as easy as:
 
 ```bash[1|2]
 GET /:key-what-you-wont-to-get
 GET /applications
 ```
 
-return will be an array of elements
+it will return an array of elements
 
 
 <!-- .slide: data-background="#330000" -->
@@ -102,14 +102,14 @@ GET /applications?_sort=name&_order=asc
 
 
 <!-- .slide: data-background="#330000" -->
-## add new one
+## Adding new element
 
 ```bash[1|2]
 POST /:key-what-you-wont-to-post-data
 POST /applications
 ```
 
-and json data
+JSON object:
 
 ```json[1,4|2|3]
 {
@@ -118,7 +118,7 @@ and json data
 }
 ```
 
-response from request will be new element with "id" if "id" is not provided it will be created by json-server
+Response from request will be a new element with "id". If "id" is not provided it will be automatically created by json-server
 
 
 <!-- .slide: data-background="#330000" -->
@@ -129,7 +129,7 @@ PUT /:key-what-you-wont-to-post-data/:id
 PUT /applications/He110-W0r1D
 ```
 
-and json data - only keys that needed to be update
+and json data - only keys that are needed to be updated
 
 ```json[1,3|2]
 {
@@ -137,7 +137,7 @@ and json data - only keys that needed to be update
 }
 ```
 
-response from request will be updated element
+updated element will be send as a response
 
 
 <!-- .slide: data-background="#330000" -->
@@ -148,13 +148,13 @@ DELETE /:key-what-you-wont-to-post-data/:id
 DELETE /applications/He110-W0r1D
 ```
 
-response from request will be empty element
+Empty element will be send as a response
 
 
 <!-- .slide: data-background="#330000" -->
 ## routes
 
-to customize routes we need to create _routes.json_ file
+To customize routes we need to create a _routes.json_ file
 this one will create _/api_ prefix for all routes
 
 ```json[1,3|2]
@@ -163,7 +163,7 @@ this one will create _/api_ prefix for all routes
 }
 ```
 
-and add parameter to starting script
+and add a parameter to starting script
 
 ```bash
 --routes routes.json
@@ -173,7 +173,7 @@ and add parameter to starting script
 <!-- .slide: data-background="#330000" -->
 ## more routes options
 
-if backend has route for search like this: `/api/applications/search/:phrase`
+If there is a route for search like this: `/api/applications/search/:phrase`
 
 it is enough just to use this piece of code:
 
@@ -190,7 +190,7 @@ and we can use as many parameters as we need
 <!-- .slide: data-background="#330000" -->
 ## middleware
 
-some additional functions like mocking delay, checking if token exists we can do by creating some middleware methods. to do so we just need to create some middleware file with method:
+Additional functions like setting delays, or checking if token exists - we can do it by creating some middleware methods. We just need to create a middleware file with method, like:
 
 ```js[1,5|2,4|3]
 module.exports = (req, res, next) => {
@@ -200,7 +200,7 @@ module.exports = (req, res, next) => {
 }
 ```
 
-and apply it in starting script
+and apply it in a starting script
 
 ```bash
 --middlewares ./middlewares/delay.js
@@ -212,14 +212,14 @@ we can use more middleware files
 <!-- .slide: data-background="#330000" -->
 ## other params
 
-in this project we are using also some additional parameters
+In this project we are using also some additional parameters
 
 ```bash[1|2]
 --watch
 --port 3005
 ```
 
-to see full list just type
+All possible options
 
 ```bash
 json-serve --help
