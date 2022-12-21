@@ -21,6 +21,7 @@
 [https://reactjs.org/](https://reactjs.org/)
 [https://vitejs.dev/](https://vitejs.dev/)
 [https://ant.design/](https://ant.design/)
+[https://github.com/jbetancur/react-data-table-component](https://github.com/jbetancur/react-data-table-component)
 [https://github.com/typicode/json-server](https://github.com/typicode/json-server)
 [https://github.com/lukeed/clsx](https://github.com/lukeed/clsx)
 
