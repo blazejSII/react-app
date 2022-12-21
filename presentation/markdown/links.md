@@ -3,16 +3,29 @@
 
 
 <!-- .slide: data-background="#333333" -->
-## thanks internet for helping!
+## Repositories
 
-[https://reactjs.org/](https://reactjs.org/)
-[https://vitejs.dev/](https://vitejs.dev/)
-[https://github.com/typicode/json-server](https://github.com/typicode/json-server)
-[https://github.com/lukeed/clsx#readme](https://github.com/lukeed/clsx#readme)
-[https://blog.bitsrc.io/](https://blog.bitsrc.io/)
+[https://github.com/react-presentation/react-app](https://github.com/react-presentation/react-app)
+[https://github.com/sii-pro-react/react-app-exercise](https://github.com/sii-pro-react/react-app-exercise)
 
 
 <!-- .slide: data-background="#333333" -->
-## presentation created in
+## Presentation
+
+[https://sii-bank-application.netlify.app/](https://sii-bank-application.netlify.app/)
+
+
+<!-- .slide: data-background="#333333" -->
+## Libraries
+
+[https://reactjs.org/](https://reactjs.org/)
+[https://vitejs.dev/](https://vitejs.dev/)
+[https://ant.design/](https://ant.design/)
+[https://github.com/typicode/json-server](https://github.com/typicode/json-server)
+[https://github.com/lukeed/clsx](https://github.com/lukeed/clsx)
+
+
+<!-- .slide: data-background="#333333" -->
+## Presentation created in
 
 [https://revealjs.com/](https://revealjs.com/)

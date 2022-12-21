@@ -1,6 +1,21 @@
-# Build app <!-- .element: class="r-fit-text" class="ant" -->
-
+# Build app <!-- .element: class="r-fit-text" -->
 # with React.js <!-- .element: class="r-fit-text" -->
+
+
+## About us
+
+- 6 years of FE experience <!--  .element: class="fragment" data-fragment-index="1" -->
+- 1 year in Sii and HSBC <!--  .element: class="fragment" data-fragment-index="2" -->
+- specialized in React.js <!--  .element: class="fragment" data-fragment-index="3" -->
+
+
+## Who is this presentation for?
+
+- tech guys who are interested in FE <!--  .element: class="fragment" data-fragment-index="1" -->
+- FE developers who do not know React.js <!--  .element: class="fragment" data-fragment-index="2" -->
+
+
+## What we are going to do
 
 
 ## Table of Contents
@@ -18,21 +33,5 @@
 
 ### Live coding
 
-- what we are going to do - example of Bank application <!--  .element: class="fragment" data-fragment-index="1" -->
-- setup json-server <!--  .element: class="fragment" data-fragment-index="2" -->
-- prepare React component <!--  .element: class="fragment" data-fragment-index="3" -->
-
-
-## Repositories
-
-```bash
-https://github.com/react-presentation/react-app
-https://github.com/sii-pro-react/react-app-exercise
-```
-
-
-## Presentation
-
-```bash
-https://sii-bank-application.netlify.app/
-```
+- setup json-server <!--  .element: class="fragment" data-fragment-index="1" -->
+- prepare React component <!--  .element: class="fragment" data-fragment-index="2" -->

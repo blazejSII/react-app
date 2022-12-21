@@ -1,6 +1,5 @@
-<!-- .slide: data-background="./assets/antd-bg.jpeg" class="fitSection" -->
-## Ant <!-- .element: class="r-fit-text halfHeight ant" -->
-## Design <!-- .element: class="r-fit-text halfHeight ant" -->
+<!-- .slide: data-background="./assets/antd-bg.jpeg" -->
+## Ant Design<!-- .element: class="r-fit-text" -->
 
 
 <!-- .slide: data-background="./assets/antd-bg.jpeg" data-transition="fade-in fade-out" -->
@@ -33,14 +32,16 @@ Ant Design is a React UI library that contains easy-to-use components that are u
 <!-- .slide: data-background="./assets/antd-bg.jpeg" -->
 ## Installation and usage
 
-<pre><code>npm install antd</code></pre>
+```bash
+npm install antd
+```
 
-<pre>
-<code>import { DatePicker } from 'antd';
+```js
+import { DatePicker } from 'antd';
 
 const App = () => {
   return <DatePicker />;
 };
 
 export default App;
-</code></pre>
+```
