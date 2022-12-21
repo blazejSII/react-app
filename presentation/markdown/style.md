@@ -9,8 +9,9 @@
 <!-- .slide: data-background="#330033" -->
 ## react .module.scss
 
-Embeded in `CRA` and `Vite` out of the box for React apps. The only thing you need to do is to name your style file with _.module_ like _button.module.scss_.
-and use it in component
+Embeded in `CRA` and `Vite` out of the box.
+
+The only thing you need to do is to name your style file with _.module_ like _button.module.scss_ and use it in component
 
 
 <!-- .slide: data-background="#330033" -->
@@ -19,14 +20,13 @@ and use it in component
 - classes are scoped to component <!--  .element: class="fragment" data-fragment-index="1" -->
 - easier maintenance (topic for discussion) <!--  .element: class="fragment" data-fragment-index="2" -->
 - possibility to send classes to multiple components <!--  .element: class="fragment" data-fragment-index="3" -->
-- better to create <!--  .element: class="fragment" data-fragment-index="4" -->
 
 
 <!-- .slide: data-background="#330033" -->
 ## disadvantages
 
 - modules do not accept props <!--  .element: class="fragment" data-fragment-index="5" -->
-- using as objects - not so clear for first time <!--  .element: class="fragment" data-fragment-index="6" -->
+- used as objects - not so clear for the first time <!--  .element: class="fragment" data-fragment-index="6" -->
 
 
 <!-- .slide: data-background="#330033" -->
@@ -80,7 +80,7 @@ const Button = () => (
 <!-- .slide: data-background="#330033" -->
 ## more and more classes with some conditions
 
-it starts to be messy - with help comes _clsx_ library. Every argument in a method if it is string it will be shown. We can also use an object to make it even more clearer.
+it starts to be messy - with help comes _clsx_ library. Every argument in a method if it is a string, it will be shown. We can also use an object to make it even more clearer.
 
 
 <!-- .slide: data-background="#330033" data-transition="fade-in fade-out" -->
@@ -88,7 +88,7 @@ it starts to be messy - with help comes _clsx_ library. Every argument in a meth
 
 
 <!-- .slide: data-background="#330033" -->
-```js[5-7|8|9|10|11]
+```js[5-7|2|8|9|10|11]
 import btn from './button.module.scss'; 
 import clsx from 'clsx';
 

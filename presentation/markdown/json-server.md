@@ -61,7 +61,7 @@ localhost:3000/
 Getting data from api is as easy as:
 
 ```bash[1|2]
-GET /:key-what-you-wont-to-get
+GET /:key-what-you-want-to-get
 GET /applications
 ```
 
@@ -72,7 +72,7 @@ it will return an array of elements
 ## get single element from api
 
 ```bash[1|2]
-GET /:key-what-you-wont-to-get/:id
+GET /:key-what-you-want-to-get/:id
 GET /applications/He110-W0r1D
 ```
 
@@ -84,7 +84,7 @@ GET /applications/He110-W0r1D
 _limit=:value
 _page=:value
 
-GET /:key-what-you-wont-to-get?_limit_=:value&_page=:value
+GET /:key-what-you-want-to-get?_limit_=:value&_page=:value
 GET /applications?_limit_=3&_page=3
 ```
 
@@ -96,7 +96,7 @@ GET /applications?_limit_=3&_page=3
 _sort=:keyName
 _order=:asc|desc
 
-GET /:key-what-you-wont-to-get?_sort=:keyName&_order=asc|desc
+GET /:key-what-you-want-to-get?_sort=:keyName&_order=asc|desc
 GET /applications?_sort=name&_order=asc
 ```
 
@@ -105,7 +105,7 @@ GET /applications?_sort=name&_order=asc
 ## Adding new element
 
 ```bash[1|2]
-POST /:key-what-you-wont-to-post-data
+POST /:key-what-you-want-to-post-data
 POST /applications
 ```
 
@@ -125,7 +125,7 @@ Response from request will be a new element with "id". If "id" is not provided i
 ## update one
 
 ```bash[1|2]
-PUT /:key-what-you-wont-to-post-data/:id
+PUT /:key-what-you-want-to-post-data/:id
 PUT /applications/He110-W0r1D
 ```
 
@@ -144,7 +144,7 @@ updated element will be send as a response
 ## delete one
 
 ```bash[1|2]
-DELETE /:key-what-you-wont-to-post-data/:id
+DELETE /:key-what-you-want-to-post-data/:id
 DELETE /applications/He110-W0r1D
 ```
 
@@ -222,7 +222,19 @@ In this project we are using also some additional parameters
 All possible options
 
 ```bash
-json-serve --help
+json-server --help
+```
+
+
+<!-- .slide: data-background="#330000" -->
+## Used script in out app
+
+```bash
+json-server db.json \
+  --routes routes.json \
+  --middlewares ./middlewares/delay.js \
+  --port 3005 \
+  --watch
 ```
 
 
