@@ -32,7 +32,7 @@ application. It is suitable for small and more complex applications, because of 
 <!-- .slide: data-background="#282c34" -->
 ## Advantages <!-- .element: class="react-color" -->
 
-- simplifies components creation <!--  .element: class="fragment" data-fragment-index="1" -->
+- simply components creation <!--  .element: class="fragment" data-fragment-index="1" -->
 - fast rendering time <!--  .element: class="fragment" data-fragment-index="2" -->
 - useful developer tools <!--  .element: class="fragment" data-fragment-index="3" -->
 - possible to create also both desktop and mobile apps <!--  .element: class="fragment" data-fragment-index="4" -->
@@ -55,4 +55,3 @@ application. It is suitable for small and more complex applications, because of 
 - Declarative UI <!--  .element: class="fragment" data-fragment-index="4" -->
 - Component-Based Architecture <!--  .element: class="fragment" data-fragment-index="5" -->
 - One way data binding <!--  .element: class="fragment" data-fragment-index="6" -->
-
