@@ -10,9 +10,16 @@
 
 
 <!-- .slide: data-background="#282c34" -->
-## Who use React? <!-- .element: class="react-color " -->
+## History <!-- .element: class="react-color " -->
 
-- Facebook <!--  .element: class="fragment" data-fragment-index="1" -->
+React was created by Jordan Walke, a software engineer at Meta, who released an early prototype of React called "FaxJS". 
+It was open-sourced at JSConf US in May 2013
+
+
+<!-- .slide: data-background="#282c34" -->
+## Who uses React? <!-- .element: class="react-color " -->
+
+- Meta <!--  .element: class="fragment" data-fragment-index="1" -->
 - Uber <!--  .element: class="fragment" data-fragment-index="2" -->
 - Twitter <!--  .element: class="fragment" data-fragment-index="3" -->
 - Amazon <!--  .element: class="fragment" data-fragment-index="4" -->
