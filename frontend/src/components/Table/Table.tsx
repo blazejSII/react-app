@@ -52,8 +52,6 @@ const Table = () => {
         title="List of secret items 🐱‍👤"
         columns={columns(handleDelete, handleModify)}
         data={data ?? []}
-        selectableRows
-        selectableRowsSingle
         progressPending={pending}
       />
       <RemoveModal
