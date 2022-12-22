@@ -1,3 +1,4 @@
+<!-- .slide: data-background="#333333" data-background-image="./assets/sii-background.png" -->
 # Build app <!-- .element: class="r-fit-text" -->
 # with React.js <!-- .element: class="r-fit-text" -->
 
