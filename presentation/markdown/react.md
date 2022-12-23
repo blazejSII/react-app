@@ -62,3 +62,4 @@ application. It is suitable for small and more complex applications, because of 
 - Declarative UI <!--  .element: class="fragment" data-fragment-index="4" -->
 - Component-Based Architecture <!--  .element: class="fragment" data-fragment-index="5" -->
 - One way data binding <!--  .element: class="fragment" data-fragment-index="6" -->
+- State and props <!--  .element: class="fragment" data-fragment-index="7" -->
